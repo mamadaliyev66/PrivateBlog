@@ -24,6 +24,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   const navigate = useNavigate();
+  console.clear()
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
